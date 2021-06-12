@@ -1,1 +1,3 @@
-/models/*
+# a local-folder `downloads` is where we keep models, tmp-files,..
+# but we don't need it in the Git repo
+/downloads/*
