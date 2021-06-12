@@ -28,7 +28,7 @@ def download_model(gdrive_id: str, save_dest: Path):
             from helpers import download_file_from_google_drive
             download_file_from_google_drive(gdrive_id, save_dest)
 
-MODELS_DIR = Path('/downloads')
+MODELS_DIR = Path('./downloads')
 flood_model = dict(
     local_path=MODELS_DIR/'20210604_dummy_test.pkl',
     gdrive_id='1E9xrqSo8QGk7zKYB3xkFKjN88sdcGk_U',
